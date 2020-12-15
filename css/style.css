@@ -875,7 +875,6 @@ position: relative;
 .video-file {
   object-fit: cover;
   filter: brightness(33%);
-
 }
 
 .video-content {
