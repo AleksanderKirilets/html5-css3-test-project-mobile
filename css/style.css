@@ -21,12 +21,15 @@
 }
 
 .page {
-width: 1920px;
+width: 100%;
 margin: 0 auto;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+position: relative;
 }
+
+
 
 .header {
   width: 100%;
@@ -42,6 +45,8 @@ justify-content: center;
   justify-content: center;
 }
 
+
+
 .hidden {
   display: none;
 }
@@ -53,6 +58,9 @@ justify-content: center;
   justify-content: space-between;
   margin: 40px 0 0 0;
 }
+
+
+
 
 .logo {
   display: flex;
@@ -83,6 +91,12 @@ justify-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    display: none;
+  }
 }
 
 .menu-links {
@@ -181,10 +195,11 @@ justify-content: center;
 }
 
 .slider {
-width: 100%;
-height: 80%;
-display: flex;
-flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .slider-arrow-left {
@@ -344,12 +359,16 @@ flex-wrap: wrap;
 }
 
 .services {
-  width: 1920px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #ffffff;  
 }
+
+
+
 
 .services-items {
   width: 100%;
@@ -366,6 +385,8 @@ flex-wrap: wrap;
   justify-content: center;
   margin: 0 17px;
 }
+
+
 
 .services-item-img {  
   margin: 0 0 20px 0;
@@ -417,7 +438,8 @@ flex-wrap: wrap;
 }
 
 .presentation {
-  width: 1920px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -464,7 +486,8 @@ flex-wrap: wrap;
 }
 
 .purchise {
-  width: 100%;  
+  width: 100%;
+  margin: 0 auto; 
   background: #211b19;
   background: linear-gradient(to right, #211b19, #4e3427);
 }
@@ -524,7 +547,7 @@ flex-wrap: wrap;
 }
 
 .projects {
-  width: 1920px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -737,6 +760,8 @@ flex-wrap: wrap;
 }
 
 .video-presentation {
+  width: 100%;
+  margin: 0 auto;
   min-height: 705px;
   position: relative;
   color: #fff;
@@ -808,7 +833,8 @@ flex-wrap: wrap;
 }
 
 .superiority {
-  width: 1920px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -862,7 +888,8 @@ height: 616px;
 }
 
 .achievements {
-  width: 1920px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -940,7 +967,7 @@ height: 616px;
 }
 
 .recent-posts {
-  width: 1920px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -1119,6 +1146,7 @@ height: 616px;
 
 .recent-posts-btns {
   width: 100%;
+  margin: 0 auto;
   max-width: 62px;
   display: flex;
   justify-content: space-between;
@@ -1139,7 +1167,8 @@ height: 616px;
 }
 
 .partners {
-  width: 1920px;
+  width: 100%;
+  margin: 0 auto;
   height: 489px;
   
   display: flex;
@@ -1210,7 +1239,7 @@ height: 616px;
 
 
 .about {
-  width: 1920px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -1379,3 +1408,4 @@ height: 616px;
   text-decoration: none;
   color: #555555;
 }
+
