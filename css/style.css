@@ -1183,17 +1183,17 @@ position: relative;
 }
 
 .recent-posts-item:hover .date {
-  background-color: #c7b299;
-  border-top: 1px solid #c7b299;
+  background-color: #c7b298;
+  border-top: 1px solid #c7b297;
   border-left: 1px solid #c7b299; 
-  border-right: 1px solid #c7b299;
+  border-right: 1px solid #c7b296;
 }
 
 .recent-posts-item:hover .month {
-  background-color: #a48d72;
+  background-color: #a48d71;
   border-bottom: 1px solid #a48d72;
-  border-left: 1px solid #a48d72; 
-  border-right: 1px solid #a48d72;
+  border-left: 1px solid #a48d73; 
+  border-right: 1px solid #a48d74;
 }
 
 .recent-posts-item-img {
@@ -1259,12 +1259,12 @@ position: relative;
 .date {
   height: 37px;
   width: 50px;
-  border-top: 1px solid #363636;
+  border-top: 1px solid #363635;
   border-left: 1px solid #363636; 
-  border-right: 1px solid #363636;
+  border-right: 1px solid #363637;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;     
-  background-color: #363636;
+  background-color: #363638;
   transition: background-color .1s linear, border-color .1s linear;
   font-family: 'Montserrat', 'arial', sans-serif;
   font-weight: 300;
@@ -1277,10 +1277,10 @@ position: relative;
 
 .month {
   height: 41%;
-  background-color: #252525;
+  background-color: #252524;
   border-bottom: 1px solid #252525;
-  border-left: 1px solid #252525; 
-  border-right: 1px solid #252525;
+  border-left: 1px solid #252526; 
+  border-right: 1px solid #252527;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   transition: background-color .1s linear, border-color .1s linear;
